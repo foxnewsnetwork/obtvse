@@ -19,9 +19,10 @@ test:
   timeout: 5000
 
 production:
-    adapter:
-    encoding: utf8
-    database:
-    username:
-    password:
-    host: localhost
+  adapter: mysql2
+  encoding: utf8
+  database: mlresources_production
+  pool: 5
+  username: root
+  password:
+  socket: /var/run/mysqld/mysqld.sock

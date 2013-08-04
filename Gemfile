@@ -11,13 +11,14 @@ gem 'redcarpet'
 
 # Misc libraries
 # gem 'bcrypt-ruby', '~> 3', require: 'bcrypt'
-gem 'stringex', '~> 1', git: 'git://github.com/rsl/stringex.git'
+gem 'stringex', '~> 1'
 gem 'kaminari', '~> 0.13'
 
 group :production do
   # gem 'newrelic_rpm', '~> 3'
   # gem 'dalli', '~> 1'
-  gem 'pg', '~> 0.13'
+  # gem 'pg', '~> 0.13'
+  gem "mysql2", "~> 0.3.13"
 end
 
 group :development do
