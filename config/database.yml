@@ -21,8 +21,8 @@ test:
 production:
   adapter: mysql2
   encoding: utf8
-  database: mlresources_production
+  database: obtvse_production
   pool: 5
   username: root
-  password:
+  password: '1234567'
   socket: /var/run/mysqld/mysqld.sock
