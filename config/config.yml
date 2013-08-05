@@ -1,8 +1,8 @@
 ---
 title:               Snarky Remarks
 tagline:             It can't be helped.
-login:               <%= ENV["obtvse_login"] ? ENV["obtvse_login"] : "foxnewsnetwork" %>
-password:            <%= ENV["obtvse_password"] ? ENV["obtvse_password"] : "1234567" %>
+login:               foxnewsnetwork
+password:            asdf123
 name:                Thomas Chen
 twitter:             thomashanchen
 github:              foxnewsnetwork
